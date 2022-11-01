@@ -1,0 +1,339 @@
+/*------------------------------------PAGE HOME---------------------------------------*/
+/* input[type='search'] {
+  border-radius: 50px;
+  background-image: url('icons8-chercher-24.png');
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  padding-left: 7px;
+  width: 390px;
+  background-size: 45px;
+  margin-left: 75px;
+  opacity: 0.5;
+}*/
+.radiusA img,
+.radiusB img,
+.radiusC img,
+.radiusD img {
+  border-radius: 150px;
+  border: 5px solid rgb(210, 205, 205);
+  margin-top: 30px;
+}
+
+/*---------------------------identification section---------------------------------*/
+.identification {
+  background: linear-gradient(rgba(27, 26, 26, 0.786), rgba(32, 30, 30, 0.786)), url('images.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.bodyinscription {
+  background: linear-gradient(rgba(27, 26, 26, 0.569), rgba(32, 30, 30, 0.58)), url('images.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.rowinscription {
+  background: linear-gradient(rgb(232, 178, 155), rgb(183, 236, 239));
+}
+
+@media screen and (max-width: 990px) {
+
+  div.identimg>img {
+    display: none;
+
+  }
+
+  .identforme>form {
+    position: relative;
+    right: 65%;
+  }
+
+  .bodyinscription {
+    width: 87%;
+  }
+
+  div.rowinscription {
+    width: 100%;
+  }
+
+  div.h1inscription {
+    margin-right: 180px;
+
+  }
+
+  #rowinscription {
+    display: none;
+  }
+}
+
+/*------------------------------*/
+#uname,
+#uname1,
+#uname2 {
+  border: 2px solid #212529;
+  opacity: 0.9;
+
+}
+
+#uname {
+
+  margin-top: 80px;
+
+}
+
+.form {
+  padding: 40px;
+  background: linear-gradient(rgba(27, 26, 26, 0.855), rgba(26, 26, 26, 0.819)), url(images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-left: 40px;
+}
+
+button.button1 {
+
+  text-align: center;
+  opacity: 0.9;
+  background-color: orangered;
+  border: orangered;
+  padding: 1%;
+  font-size: 20px;
+}
+
+
+
+input.valida {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width:991px) {
+
+  /*2 NAVBAR*/
+  .header-scrolled {
+    height: auto;
+  }
+
+  .header-wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: rgb(18, 18, 38);
+    padding-bottom: 15px;
+  }
+
+  /*CONTACTES*/
+  .contact:hover {
+    border: 1px solid black !important;
+  }
+}
+
+/*---------------------------------PORFOLIO------------------------*/
+
+#PORTFOLIO {
+  background-color: #f8f9fa;
+  color: black;
+  Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.portfolio h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.portfolio p {
+  font-family: monospace;
+  font-size: 17px;
+  color: #495057;
+  font-weight: 300;
+}
+
+/* GRILLE PORTFOLIO */
+
+.portfolio h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.portfolio .p1 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#PORTFOLIO .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link .portfolio-hover {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0;*/
+  transition: opacity ease-in-out 0.25s;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+  background-color: rgba(255, 200, 0, 0.9);
+  display: flex;
+}
+
+/* GRILLE PORTFOLIO */
+
+.portfolio h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.portfolio .p1 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#PORTFOLIO .portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link .portfolio-hover {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  /* opacity: 0;*/
+  transition: opacity ease-in-out 0.25s;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+
+#PORTFOLIO .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1;
+  background-color: rgba(255, 200, 0, 0.9);
+  display: flex;
+}
+
+
+/* PORTFOLIO MODAL */
+
+.modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.modal-content h2,
+.modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+  Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#PORTFOLIO .modal-content p {
+  margin-bottom: 2rem;
+}
+
+.modal-content ul.list-inline {
+  margin-bottom: 2rem;
+  Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.modal-content .close-modal .modal-body .main-btn {
+  color: #fff;
+  Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+  width: 250px;
+  height: 60px;
+}
+
+.modal-content img {
+  margin-bottom: 2rem;
+}
+
+.close-modal .image {
+  position: absolute;
+  top: 1.5rem;
+  right: 2%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.close-modal:hover {
+  opacity: 0.3;
+}
+
+/*Mini Projet : Créer une page de ventes en ligne avec 
+les pages suivantes: Page d’accueil avec navbar,
+icône de panier,
+barre de recherche,
+types de produits,
+produits les plus achetés avec photo des produits,
+temoignages client et footer Page de connexion Page 
+d’inscription Page liste des produits Page détails d’un produit Page Formulaire 
+de contact NB: A vous de choisir votre secteur de ventes (cosmétiques, habillement,
+ électroménagers…) Toutes les pages doivent être reliées les unes des autres Le site est 
+ statique Mettre le projet sur gitlab et nous envoyer le lien*/
+
+@media screen and (max-width: 990px) {
+  div .flex {
+    flex-direction: column;
+
+  }
+
+  div img {
+    width: 100%;
+    height: 100%;
+  }
+
+  div img>p {
+    margin-bottom: 100px;
+  }
+}
